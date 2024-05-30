@@ -1,9 +1,8 @@
 const tableParent = document.getElementById('sampleTable');
 const insertBtn = document.querySelector('input');
 
-function insert_Row(e)
+function insert_Row()
 {
-    // e.preventDefault();
     const row = document.createElement('tr');
     row.innerHTML = `
     <td>New Cell1</td>
